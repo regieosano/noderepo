@@ -1,14 +1,22 @@
 {
-  "name": "node_starter",
-  "version": "1.0.0",
-  "description": "A Node Starter",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Regie Osano",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "node_starter",
+    "version": "1.0.0",
+    "description": "A Node Starter",
+    "main": "index.js",
+    "scripts": {
+        "start": "babel-node src/index.js"
+    },
+    "author": "Regie Osano",
+    "license": "MIT",
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.2",
+        "@babel/node": "^7.6.2",
+        "@babel/preset-env": "^7.6.2"
+    }
 }
